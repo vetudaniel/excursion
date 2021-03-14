@@ -7,6 +7,9 @@ body {
   background-color: #000;
   font-family: Verdana;
 }
+header {
+  margin-top: 2rem;
+}
 h1 {
   font-size: 50px;
   color: #fff;
@@ -21,4 +24,32 @@ a {
 p {
   color: aquamarine;
   text-align: center;
+}
+video {
+  margin: 2rem 0;
+}
+.showcase {
+  text-align: center;
+}
+.details {
+  text-align: center;
+}
+.details img {
+  margin: 2rem 0;
+  border-radius: 20px;
+}
+.cta {
+  text-align: center;
+}
+footer {
+  text-align: end;
+
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer .foot {
+  color: #fff;
+  padding: 10px 0;
 }
